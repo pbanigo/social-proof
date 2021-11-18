@@ -11,9 +11,6 @@
 	--white: hsl(0, 0%, 100%); 
 }
 
-* {
-	border: 1px solid red;
-}
 
 html {
 	font-size: 15px;
@@ -25,11 +22,12 @@ body {
 	margin: auto;
 }
 main {
-	padding: 10%;
+	padding: 80px 15px;
+	text-align: center;
 }
 h1 {
 	color: var(--very-dark-magenta);
-
+    padding: 0 20px;
 }
 
 p {
@@ -40,16 +38,41 @@ p {
 	margin: 10% 0;
 	padding: 10%;
 	border-radius: 10px;
+	color: var(--very-dark-magenta);
+	font-weight: 700;
 }
 .rated img {
-	display: block;
+	display: inline-block;
+    padding-bottom: 20px;
 }
 .reviews {
 	background-color: var(--very-dark-magenta);
 	margin: 10% 0;
 	color: var(--white);
 	border-radius: 10px;
+    padding: 40px 25px;
 }
 .reviews img {
 	border-radius: 50%;
+    height: 50px;
+    width: auto;
+    margin-right: 25px;
+}
+.top {
+	display: flex;
+	font-weight: 500;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+.top p {
+	color: var(--soft-pink);
+}
+.quote {
+	text-align: left;
+
+}
+.name {
+	color: var(--white);
 }
