@@ -24,7 +24,7 @@ body {
 	margin: auto;
 }
 main {
-	padding: 80px 15px;
+	padding: 21.3% 4%;
 	text-align: center;
 	background-image: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
   	background-position: top left, bottom;
@@ -94,6 +94,7 @@ p {
     	background-position: left top, right bottom;
     	background-size: cover;
     	background-size: max(40%, 200px), max(65%, 200px);
+    	padding: 10%;
 	}
 	#alpha {
 		display: flex;
